@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="shortcut icon" href="./img/pokemon-1635610_640.png" type="image/x-icon">
+    <script src="./script.js"></script>
+    <script src="./templates.js"></script>
+    <title>Pokédex</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./charts.js"></script>
+</head>
+
+<body onload="init()">
+    <header id="header" class="">
+        <img src="./img/Pokédex_logo.png" alt="">
+        <div class="search">
+            <input type="search" name="" id="search" placeholder="Input and hit Enter">
+            <label for="search"></label>
+        </div> 
+    </header>
+    <main id="pokedex"></main>
+    <section id="big_card" class="big-card" style="display: none;"></section>
+    <button  onclick="topFunction()" id="myBtn" title="Go to top"><img class="arrow" src="./img/arrow.png" alt=""></button>
+</body>
+
+</html>
